@@ -5,7 +5,6 @@ import { Article } from '../components/Article'
 import { Nav } from '../components/Nav'
 
 export default function Home(props: any) {
-  console.log(props.topArticles)
   return (
     <>
       <Head>
