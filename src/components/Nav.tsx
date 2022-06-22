@@ -9,22 +9,22 @@ const TOPICS = [
     title: 'Top stories',
   },
   {
-    icon: '02',
+    icon: '03',
     path: '/topics/business',
     title: 'Business',
   },
   {
-    icon: '03',
+    icon: '04',
     path: '/topics/technology',
     title: 'Technology',
   },
   {
-    icon: '04',
+    icon: '05',
     path: '/topics/entertainment',
     title: 'Entertainment',
   },
   {
-    icon: '05',
+    icon: '06',
     path: '/topics/sports',
     title: 'Sports',
   },

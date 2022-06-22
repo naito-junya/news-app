@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
     <Container>
       <Heading>
         <HeaderImage>
-          {/* <Image src="" alt='menu icon' width={35} height={35} /> */}
+          <Image src="/img/headerIcon/menu.png" alt='menu icon' width={35} height={35} />
         </HeaderImage>
         <Title>
           <Link href='/'>

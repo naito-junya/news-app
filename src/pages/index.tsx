@@ -33,6 +33,9 @@ const Contents = styled.div`
 const Wrap = styled.div`
   flex: 2;
   position: fixed;
+  @media (max-width: 800px) {
+    display: none;
+  }
 `
 
 const Navi = styled.nav``
@@ -57,5 +60,6 @@ export const getStaticProps = async () => {
     props: {
       topArticles,
     },
+    revalidate: 60 * 10,
   }
 }
