@@ -8,7 +8,7 @@ type Props = {
         urlToImage: string;
       }
     ];
-    title?: string;
+    title: string;
     weatherNews?: {
       current: {
         temp: number;
